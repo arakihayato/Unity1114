@@ -9,11 +9,4 @@ public class StartController : MonoBehaviour
         //ゲームマネージャーを認識していない
         GameManager.Instance.StartGame();
     }
-
-    //追加した
-    //ボタンを押した時の処理
-    public void PushButton()
-    {
-        SceneManager.LoadScene("GameScenes");
-    }
 }
